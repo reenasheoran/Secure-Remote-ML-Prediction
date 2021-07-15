@@ -39,6 +39,17 @@ This project mainly contains three files. <br>
 3. **Linmodel.py** - This file also sits on the company's site that provides ML services. It contains the machine learning model. The Server.py file uses weights generated through this file for making prediction on user data.<br><br>
 The communication between client and server is done using socket programming, to test the project in real-time scenario.
 ## Screen Shots
+Step 1. ML Server is activated to accept client request.<br>
+![image2](https://github.com/reenasheoran/Secure-Remote-ML-Prediction/blob/main/static/1.png)
+Step 2. Client is activated and encrypted data along with public key is sent to the ML server. <br>
+![image3](https://github.com/reenasheoran/Secure-Remote-ML-Prediction/blob/main/static/2.png)
+Step 3. ML Server received the data and the public key from client. <br>
+![image4](https://github.com/reenasheoran/Secure-Remote-ML-Prediction/blob/main/static/3.png)
+Step 4. ML server sent the public key and encrypted predicted result to the client. <br>
+![image5](https://github.com/reenasheoran/Secure-Remote-ML-Prediction/blob/main/static/4.png)
+Step 5. Client received the encrypted result.<br>
+![image6](https://github.com/reenasheoran/Secure-Remote-ML-Prediction/blob/main/static/5.png)
+Step 6. Client decrypted the received result<br>
 ## References
 1. Aslett, Louis JM, Pedro M. Esperança, and Chris C. Holmes, Encrypted statistical machine learning: new privacy preserving methods (2015), arXiv preprint arXiv:1508.06845.<br>
 2. Graepel, Thore, et al., Machine Learning on Encrypted Data (2012), ICISC 2012, LNCS 7839.<br>
