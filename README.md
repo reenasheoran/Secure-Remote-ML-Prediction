@@ -12,6 +12,14 @@ In this project I tried to meet the following data privacy: - <br>
 2. **Socket Programming** - For sending and receiving data between client and server.<br>
 3. **Machine Learning** - For creating a machine learning model - Linear Regression.<br>
 ## Installation
+This project is developed using python 3.8.8. If you are using any lower version of python and facing issues, then I recommend you to upgrade your python to the latest version by using pip command. Follow the steps below to run this project locally.
+```
+git clone https://github.com/reenasheoran/Secure-Remote-ML-Prediction.git
+cd Secure-Remote-Ml-Prediction
+pip install -r requirements.txt
+python Server.py
+python Client.py
+```
 ## Data Collection
 For this project, my concern was more towards data security. Therefore, I prefered to pick a simple and clean dataset for model building. The dataset for this project has been taken from kaggle https://www.kaggle.com/varungitboi/employee-salary-dataset that contains the following columns:- <br>
 1. **age** - Age of an employee.<br>
