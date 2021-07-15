@@ -1,7 +1,7 @@
 # Secure-Remote-ML-Prediction
 Remote machine learning prediction on encrypted data
 ## Motivation
-Data privacy is a central issue now a days, especially ones that train and infer on sensitive data. In order to comply with the four pillars of perfectly privacy-preserving AI, input user data and resulting model outputs inferred from that data should not be visible to any parties except for the user.  Preserving user data privacy is not only beneficial for the users themselves, but also for the companies processing potentially sensitive information. Privacy goes hand in hand with security. Having proper security in place means that data leaks are much less likely to occur, leading to the ideal scenario: no loss of user trust and no fines for improper data management.
+Data privacy is a central issue now a days, especially for ones that train and infer on sensitive data. In order to comply with the four pillars of perfectly privacy-preserving AI, input user data and resulting model outputs inferred from that data should not be visible to any parties except for the user.  Preserving user data privacy is not only beneficial for the users themselves, but also for the companies processing potentially sensitive information. Privacy goes hand in hand with security. Having proper security in place means that data leaks are much less likely to occur, leading to the ideal scenario: no loss of user trust and no fines for improper data management.
 ## Objective 
 In this project I tried to meet the following data privacy: - <br>
 1. **Input Privacy**: The guarantee that a user’s input data cannot be observed by other parties, including the model creator.<br>
@@ -11,7 +11,13 @@ In this project I tried to meet the following data privacy: - <br>
 2. **Socket Programming** - For sending and receiving data between client and server.<br>
 3. **Machine Learning** - For creating a machine learning model - Linear Regression.<br>
 ## Installation
-
+## Data Collection
+For this project, my concern was more towards data security. Therefore, I prefered to pick a simple and clean dataset for model building. The dataset for this project has been taken from kaggle https://www.kaggle.com/varungitboi/employee-salary-dataset that contains the following columns:- <br>
+1. **age** - Age of an employee.<br>
+2. **healthy_eating** - Healthy eating score of an employee.<br>
+3. **active_lifestyle** - Active Lifestyle score of an employee.<br>
+4. **Gender** - Gender of an employee.<br>
+5. **salary** - Salary of an employee.<br>
 ## Project Files
 This project mainly contains three files. <br>
 1. **Client.py** - This file sits on the user machine and includes the following:-<br>
@@ -24,6 +30,7 @@ This project mainly contains three files. <br>
                3. Method to pack up the encrypted result and return it back to the customer.<br>
 3. **Linmodel.py** - This file also sits on the company's site that provides ML services. It contains the machine learning model. The Server.py file uses weights generated through this file for making prediction on user data.<br><br>
 The communication between client and server is done using socket programming, to test the project in real-time scenario.
+## Screen Shots
 ## References
 1. Aslett, Louis JM, Pedro M. Esperança, and Chris C. Holmes, Encrypted statistical machine learning: new privacy preserving methods (2015), arXiv preprint arXiv:1508.06845.<br>
 2. Graepel, Thore, et al., Machine Learning on Encrypted Data (2012), ICISC 2012, LNCS 7839.<br>
