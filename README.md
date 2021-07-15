@@ -1,5 +1,6 @@
 # Secure-Remote-ML-Prediction
 Remote machine learning prediction on encrypted data
+![image1](https://github.com/reenasheoran/Secure-Remote-ML-Prediction/blob/main/static/concept.png)
 ## Motivation
 Data privacy is a central issue now a days, especially for ones that train and infer on sensitive data. In order to comply with the four pillars of perfectly privacy-preserving AI, input user data and resulting model outputs inferred from that data should not be visible to any parties except for the user.  Preserving user data privacy is not only beneficial for the users themselves, but also for the companies processing potentially sensitive information. Privacy goes hand in hand with security. Having proper security in place means that data leaks are much less likely to occur, leading to the ideal scenario: no loss of user trust and no fines for improper data management.
 ## Objective 
