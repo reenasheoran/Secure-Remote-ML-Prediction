@@ -14,8 +14,8 @@ In this project I tried to meet the following data privacy: - <br>
 ## Installation
 This project is developed using python 3.8.8. If you are using any lower version of python and facing issues, then I recommend you to upgrade your python to the latest version by using pip command. Follow the steps below to run this project locally.
 ```
-git clone https://github.com/reenasheoran/Secure-Remote-ML-Prediction.git
-cd Secure-Remote-ML-Prediction
+git clone https://github.com/reenasheoran/You-Can-Not-See-Me.git
+cd You-Can-Not-See-Me
 python Server.py
 python Client.py
 ```
