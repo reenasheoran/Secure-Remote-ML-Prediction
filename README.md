@@ -1,4 +1,4 @@
-# Secure-Remote-ML-Prediction
+# You-Can-Not-See-Me
 Remote machine learning prediction on encrypted data
 ![image1](https://github.com/reenasheoran/Secure-Remote-ML-Prediction/blob/main/static/concept.png)
 ## Motivation
